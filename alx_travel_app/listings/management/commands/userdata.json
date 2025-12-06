@@ -1,0 +1,18 @@
+{"user":{
+
+    "firstname":"Kevin",
+    "lastname":"Doe",
+    "email":"KevinDOe@gmail.com",
+    "password":"KevinDoe123"
+
+},
+
+"user2":
+{
+    "firstname":"Jane",
+    "lastname":"Smith",
+    "email":"Janesmith@gmail.com",
+    "password":"JaneSmith123"
+}
+
+}

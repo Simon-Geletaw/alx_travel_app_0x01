@@ -8,7 +8,8 @@ class User(AbstractBaseUser):
     user_name = models.CharField(max_length=10, unique=True, db_index=True,
                                  null=False)
     Email = models.EmailField(max_length=254, unique=True, db_index=True,
-                              null=False)
+                              null=False)  
+    id = models.UUIDField(primary_key=True)  
 
 
 class Listing(models.Model):
